@@ -10,4 +10,5 @@
 - go build
 - go install
 - go test -v
+- go test -fuzz=Fuzz -fuzztime 30s
 - go get .
