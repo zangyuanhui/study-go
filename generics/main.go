@@ -1,7 +1,11 @@
+/*
+范型相关代码，go版本必须>1.18才可用，提高代码复用性、灵活性
+*/
 package main
 
 import "fmt"
 
+// SumInts 这将被godoc生成文档
 func SumInts(m map[string]int64) int64 {
 	var s int64
 	for _, v := range m {
